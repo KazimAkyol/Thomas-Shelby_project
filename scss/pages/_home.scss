@@ -3,6 +3,5 @@
 //*****************************************************
 
 .home-bgImg-container{
-    border: 2px solid red;
-    background-image: url(../../img/Thomas.jpg);
+    @include bgImg;
 }
