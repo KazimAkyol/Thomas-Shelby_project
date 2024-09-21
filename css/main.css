@@ -111,6 +111,10 @@ footer.vertical .copyright {
   background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/Shelby-his-wife.jpg");
   background-size: cover;
 }
+.contact-bgImg-container .nav {
+  border: 2px solid red;
+  height: 40vh;
+}
 
 .home-bgImg-container {
   height: 100vh;
