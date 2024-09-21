@@ -5,11 +5,11 @@
   box-sizing: border-box;
 }
 
-.link-style a, footer.vertical .social-icons a, footer.horizontal a {
+.link-style a, footer.middle a, footer.vertical .social-icons a, footer.horizontal a {
   padding: 0.5rem;
   transition: all 1s;
 }
-.link-style a::hover, footer.vertical .social-icons a::hover, footer.horizontal a::hover {
+.link-style a::hover, footer.middle a::hover, footer.vertical .social-icons a::hover, footer.horizontal a::hover {
   color: chocolate;
 }
 
@@ -39,6 +39,16 @@ footer.vertical .copyright {
   right: 1rem;
   bottom: 1rem;
   writing-mode: vertical-rl;
+}
+
+footer.middle {
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+  padding: 1rem;
 }
 
 .nav {
@@ -112,8 +122,32 @@ footer.vertical .copyright {
   background-size: cover;
 }
 .contact-bgImg-container .nav {
-  border: 2px solid red;
   height: 40vh;
+}
+
+.contact {
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.contact h2 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  color: chocolate;
+}
+.contact__list {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 1.3rem;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+.contact .text-secondary {
+  color: chocolate;
 }
 
 .home-bgImg-container {

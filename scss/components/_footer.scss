@@ -43,3 +43,15 @@ footer.vertical{
         writing-mode: vertical-rl;
     }
 }
+
+footer.middle{
+    //border: 2px solid red;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+    padding: 1rem;
+    @extend .link-style;
+}
