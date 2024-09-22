@@ -2,10 +2,8 @@
 //*   RESPONSIVE
 //*****************************************************
 
-@use "../abstracts/mixins";
-@use "../abstracts/variables";
 
-@include mixins.media-xsm {
+@include media-xsm {
     .nav {
       padding: 0.5rem;
       &__list {
@@ -29,7 +27,7 @@
       }
     }
   }
-  @include mixins.media-sm {
+  @include media-sm {
     .nav {
       padding: 0.7rem;
       &__list {
@@ -54,7 +52,7 @@
     }
   }
   
-  @include mixins.media-md {
+  @include media-md {
     .nav {
       &__item {
         padding-right: 1.3rem;
@@ -68,7 +66,7 @@
     }
   }
   
-  @include mixins.media-lg {
+  @include media-lg {
     .nav {
       &__item {
         padding-right: 1.5rem;
@@ -86,7 +84,7 @@
     }
   }
   
-  @include mixins.media-xl {
+  @include media-xl {
     .projects__item {
       width: 33%;
     }
